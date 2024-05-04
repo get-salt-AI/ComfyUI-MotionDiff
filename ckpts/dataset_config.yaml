@@ -1,0 +1,112 @@
+3DPW-TEST:
+  KEYPOINT_LIST:
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 43
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_new/3dpw-test/{000000..000012}.tar
+  USE_HIPS: false
+AIC-TRAIN:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/aic-train/{000000..000104}.tar
+  epoch_size: 200000
+AIC-TRAIN-WMASK:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/aic-train-vitpose/{000000..000104}.tar
+  epoch_size: 200000
+AVA-TRAIN-MIDFRAMES-1FPS:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/ava-train-midframes-1fps/{000000..000092}.tar
+  epoch_size: 200000
+AVA-TRAIN-MIDFRAMES-1FPS-WMASK:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/ava-train-midframes-1fps-vitpose/{000000..000092}.tar
+  epoch_size: 200000
+CMU-MOCAP:
+  DATASET_FILE: /fsx/shubham/code/hmr2023/data/datasets/cmu_mocap.npz
+COCO-TRAIN-2014:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/coco-train-2014/{000000..000017}.tar
+  epoch_size: 360000
+COCO-TRAIN-2014-VITPOSE-REPLICATE-PRUNED12:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/coco-train-2014-vitpose-replicate-pruned12/{000000..000044}.tar
+  epoch_size: 45000
+COCO-TRAIN-2014-WMASK:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/coco-train-2014/{000000..000034}.tar
+  epoch_size: 35000
+COCO-TRAIN-2014-WMASK-PRUNED:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/coco-train-2014-pruned/{000000..000017}.tar
+  epoch_size: 18000
+COCO-VAL:
+  KEYPOINT_LIST:
+  - 0
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/coco-val/{000000..000000}.tar
+H36M-TRAIN:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/h36m-train/{000000..000156}.tar
+  epoch_size: 314000
+H36M-TRAIN-WMASK:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/h36m-train/{000000..000312}.tar
+  epoch_size: 314000
+H36M-VAL-P2:
+  KEYPOINT_LIST:
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 43
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_new/h36m-val-p2/{000000..000013}.tar
+  USE_HIPS: true
+H36M-VAL-P2-OPENPOSE:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_new/h36m-val-p2-openpose/{000000..000013}.tar
+INSTA-TRAIN:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/insta-train/{000000..001828}.tar
+  epoch_size: 4000000
+INSTA-TRAIN-WMASK:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/insta-train-vitpose/{000000..001828}.tar
+  epoch_size: 4000000
+MPI-INF-TRAIN:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/mpi-inf-train/{000000..000048}.tar
+  epoch_size: 100000
+MPI-INF-TRAIN-PRUNED:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_new/mpi-inf-train-pruned/{000000..00006}.tar
+  epoch_size: 12000
+MPII-TRAIN:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled/mpii-train/{000000..000004}.tar
+  epoch_size: 100000
+MPII-TRAIN-WMASK:
+  TYPE: ImageDataset
+  URLS: /fsx/shubham/data/hmr2023_data_shuffled_wmasks/mpii-train/{000000..000009}.tar
+  epoch_size: 100000
